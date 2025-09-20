@@ -21,31 +21,30 @@ I recently launched a lightweight world model project called **WorldForge**, whi
 
 # Publications
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=zh-CN&user=rytyb7QAAAAJ).
-* Denotes Corresponding Author
 
 
 **WorldForge: Unlocking Emergent 3D/4D Generation in Video Diffusion Model via Training-Free Guidance** (2025)  
-**C Song**, Y Yang, T Zhao, R Li, C Zhang*  
+**C Song**, Y Yang, T Zhao, R Li, C Zhang  
 *arXiv preprint arXiv:2509.15130*
 
 **FewarNet: An efficient few-shot view synthesis network based on trend regularization** (2024)  
-**C Song**, S Wang*, J Wei*, Y Zhao  
+**C Song**, S Wang, J Wei, Y Zhao  
 *IEEE Transactions on Circuits and Systems for Video Technology 34 (10), 9264-9278*
 
 **FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing** (2025)  
-G Li, Y Yang, **C Song**, C Zhang*  
+G Li, Y Yang, **C Song**, C Zhang  
 *arXiv preprint arXiv:2506.05046*
 
 **Appagentx: Evolving gui agents as proficient smartphone users** (2025)  
-W Jiang, Y Zhuang, **C Song**, X Yang, JT Zhou, C Zhang*  
+W Jiang, Y Zhuang, **C Song**, X Yang, JT Zhou, C Zhang  
 *arXiv preprint arXiv:2503.02268*
 
 **Wide-baseline view synthesis for light-field display based on plane-depth-fused sweep volume** (2023)  
-C Song, S Wang*, J Wei, Y Zhao, R Zhang  
+C Song, S Wang, J Wei, Y Zhao, R Zhang  
 *Displays 79, 102503*
 
 **Elemental image array generation based on BVH structure combined with spatial partition and display optimization** (2024)  
-T Li, S Wang*, J Wei, Y Zhao, **C Song**, R Zhang  
+T Li, S Wang, J Wei, Y Zhao, **C Song**, R Zhang  
 *Displays 84, 102784*
 
 
