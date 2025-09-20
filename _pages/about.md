@@ -40,7 +40,7 @@ W Jiang, Y Zhuang, **C Song**, X Yang, JT Zhou, C Zhang
 *arXiv preprint arXiv:2503.02268*
 
 **Wide-baseline view synthesis for light-field display based on plane-depth-fused sweep volume** (2023)  
-C Song, S Wang, J Wei, Y Zhao, R Zhang  
+**C Song**, S Wang, J Wei, Y Zhao, R Zhang  
 *Displays 79, 102503*
 
 **Elemental image array generation based on BVH structure combined with spatial partition and display optimization** (2024)  
