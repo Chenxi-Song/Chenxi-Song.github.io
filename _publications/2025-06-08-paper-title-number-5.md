@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "FewarNet: An efficient few-shot view synthesis network based on trend regularization"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /publication/2024-fewarnet
+excerpt: 'An efficient few-shot view synthesis network that uses trend regularization for improved performance.'
+date: 2024-05-01
+venue: 'IEEE Transactions on Circuits and Systems for Video Technology'
+paperurl: 'https://doi.org/10.1109/TCSVT.2024.3395447'
+citation: 'C Song, S Wang, J Wei, Y Zhao. (2024). &quot;FewarNet: An efficient few-shot view synthesis network based on trend regularization.&quot; <i>IEEE Transactions on Circuits and Systems for Video Technology</i>. 34 (10), 9264-9278.'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+This paper presents FewarNet, an efficient few-shot view synthesis network that leverages trend regularization techniques to improve the quality of novel view generation from limited input viewpoints. The method addresses the challenging problem of sparse-view multi-view synthesis, which is crucial for various applications in 3D computer vision and computer graphics.

@@ -1,63 +1,55 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Chenxi Song",
+    "email": "songchenxi@westlake.edu.cn",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://chenxi-song.github.io",
+    "summary": "Postdoctoral researcher at AGI Lab, Westlake University. Research interests: 3D & 4D scene and object controllable generation.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Hangzhou",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?hl=zh-CN&user=rytyb7QAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-2542-9204"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "chenxi-song",
+        "url": "https://github.com/chenxi-song"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Westlake University",
+      "position": "Postdoctoral Researcher",
+      "website": "https://www.westlake.edu.cn/",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "AGI Lab, supervised by Prof. Chi Zhang. Research focus: 3D & 4D scene and object controllable generation."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Jilin University",
+      "area": "Ph.D in Engineering",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2019",
+      "endDate": "2024",
       "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "courses": [],
+      "summary": "Research focus: 3D Computer Vision and Computer Graphics. Supervised by Prof. Shigang Wang, with co-supervision from Prof. Jian Wei and Prof. Yan Zhao."
     }
   ],
   "skills": [],

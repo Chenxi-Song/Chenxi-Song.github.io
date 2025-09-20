@@ -1,20 +1,29 @@
 ---
-title: "Teaching experience 1"
+title: "Bachelor's Degree in Information Engineering"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Undergraduate study"
+permalink: /teaching/2015-2019-bachelor
+venue: "Jilin University, School of Information Engineering"
+date: 2015-09-01
+location: "Changchun, China"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+**Bachelor's Degree Program (2015-2019)**
 
-Heading 1
-======
+I completed my undergraduate studies at Jilin University, majoring in Information Engineering. During this period, I developed a strong foundation in:
 
-Heading 2
-======
+## Core Subjects
+- Signal Processing and Analysis
+- Digital Communications
+- Information Theory
+- Circuit Design and Analysis
+- Computer Programming and Algorithms
+- Mathematics and Engineering Fundamentals
 
-Heading 3
-======
+## Key Achievements
+- Gained comprehensive knowledge in information engineering principles
+- Developed programming skills in multiple languages
+- Participated in various engineering projects and laboratory work
+- Built strong analytical and problem-solving capabilities
+
+This undergraduate education provided the essential groundwork for my later doctoral research in 3D computer vision and computer graphics.
