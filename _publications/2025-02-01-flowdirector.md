@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-flowdirector
 excerpt: 'Training-free flow steering approach for precise text-to-video editing applications.'
 date: 2025-02-01
-venue: 'arXiv preprint'
+venue: 'CVPR 2026'
 paperurl: 'https://arxiv.org/abs/2506.05046'
 citation: 'G Li, Y Yang, C Song, C Zhang. (2025). &quot;FlowDirector: Training-Free Flow Steering for Precise Text-to-Video Editing.&quot; <i>arXiv preprint arXiv:2506.05046</i>.'
 ---

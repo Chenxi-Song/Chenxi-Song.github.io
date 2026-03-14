@@ -4,7 +4,7 @@
     "email": "songchenxi@westlake.edu.cn",
     "phone": "",
     "website": "https://chenxi-song.github.io",
-    "summary": "Postdoctoral researcher at AGI Lab, Westlake University. Research interests: 3D & 4D scene and object controllable generation.",
+    "summary": "Postdoctoral researcher at AGI Lab, Westlake University. Research interests: 3D & 4D scene and controllable video generation.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -37,7 +37,7 @@
       "website": "https://www.westlake.edu.cn/",
       "startDate": "2025-01",
       "endDate": "Present",
-      "summary": "AGI Lab, supervised by Prof. Chi Zhang. Research focus: 3D & 4D scene and object controllable generation."
+      "summary": "AGI Lab, supervised by Prof. Chi Zhang. Research focus: 3D & 4D scene and controllable video generation."
     }
   ],
   "education": [

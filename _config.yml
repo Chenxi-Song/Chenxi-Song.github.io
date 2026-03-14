@@ -25,7 +25,7 @@ author:
   avatar           : "icon.png"
   name             : "Chenxi Song"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoc Researcher at AGI Lab, Westlake University. Research interests: 3D&4D scene and object controllable generation."
+  bio              : "Postdoc Researcher at AGI Lab, Westlake University. Research interests: 3D&4D scene and controllable video generation."
   location         : "Hangzhou, China"
   employer         : "Westlake University"
   uri              : # URL
