@@ -196,8 +196,8 @@ I recently launched a lightweight world model project called <b><a href="https:/
 
 <div class="news-section">
   <div class="news-item"><span class="news-date">Feb 2026</span> 🎉 <b>5</b> papers are accepted by <b>CVPR 2026</b>!</div>
-  <div class="news-item"><span class="news-date">Feb 2026</span> 🎉 <a href="https://github.com/Westlake-AGI-Lab/WorldForge" style="color:inherit;text-decoration:underline;">WorldForge</a> code is now open-sourced!</div>
-  <div class="news-item"><span class="news-date">Sep 2025</span> 🔥🔥🔥 Released WorldForge, a training-free world model project.</div>
+  <div class="news-item"><span class="news-date">Feb 2026</span> 🔥 <a href="https://github.com/Westlake-AGI-Lab/WorldForge" style="color:inherit;text-decoration:underline;">WorldForge</a> code is now open-sourced!</div>
+  <div class="news-item"><span class="news-date">Sep 2025</span> 🔥 Released WorldForge, a training-free world model project.</div>
   <div class="news-item"><span class="news-date">Jan 2025</span> Joined Westlake University School of Engineering as a postdoctoral researcher.</div>
   <div class="news-item"><span class="news-date">Sep 2024</span> Graduated from Jilin University with Ph.D. degree.</div>
   <div class="news-item"><span class="news-date">May 2024</span> Our work FewarNet on sparse-view multi-view synthesis was published in T-CSVT.</div>
@@ -215,7 +215,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
 <div class="pub-card">
   <div class="pub-img"><img src="/images/paper/worldforge.gif" onerror="this.onerror=null;this.src='/images/paper/worldforge.png';this.onerror=function(){this.parentElement.innerHTML='<div class=placeholder>&#128293;</div>';}" /></div>
   <div class="pub-info">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2509.15130">WorldForge: Unlocking Emergent 3D/4D Generation in Video Diffusion Model via Training-Free Guidance</a></div>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2509.15130">WorldForge: Taming Video Models for 3D and 4D Generation via Zero-Shot Camera Control</a></div>
     <div class="pub-authors"><b>C Song</b>, Y Yang, T Zhao, R Li, C Zhang</div>
     <div class="pub-venue"><b>CVPR 2026</b></div>
     <div class="pub-links">
@@ -247,9 +247,9 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
     <div class="pub-authors">Q Xu, <b>C Song</b>, Y Cai, C Zhang</div>
     <div class="pub-venue"><b>CVPR 2026</b></div>
     <div class="pub-links">
-      <!-- <a href="https://flowdirector-edit.github.io/">Page</a> -->
-      <a href="#">PDF</a>
-      <!-- <a href="https://github.com/Westlake-AGI-Lab/FlowDirector">Code</a> -->
+      <a href="https://switchcraft-project.github.io/">Page</a>
+      <a href="https://arxiv.org/abs/2602.23956">PDF</a>
+      <a href="https://github.com/Westlake-AGI-Lab/SwitchCraft">Code</a>
     </div>
   </div>
 </div>
