@@ -187,7 +187,7 @@ html[data-theme="dark"] .news-section::-webkit-scrollbar-thumb { background: #66
 Hi, I'm <b>Chenxi Song</b>, currently a postdoctoral researcher at AGI Lab, Westlake University, supervised by Prof. <a href="https://icoz69.github.io/">Chi Zhang</a>. I received my Ph.D. degree in Engineering from Jilin University in 2024, where I focused on 3D Computer Vision and Computer Graphics under the supervision of Prof. <a href="https://dce.jlu.edu.cn/info/1066/7660.htm">Shigang Wang</a>, with co-supervision from Prof. <a href="https://wei-jian.github.io/about/">Jian Wei</a> and Prof. <a href="https://dce.jlu.edu.cn/info/1181/5220.htm">Yan Zhao</a>.
 <br><br>
 My current research interests lie in <b>3D & 4D scene and controllable video generation</b>. I am actively engaged in the academic community, serving as a reviewer for top-tier AI conferences and journals including NeurIPS, CVPR, ECCV, AAAI, MM, and T-CSVT.
-I recently launched a lightweight world model project called <b><a href="https://worldforge-agi.github.io" style="color:inherit;text-decoration:underline;">WorldForge</a></b>, which has been pen-sourced. Check it out!
+I recently launched a lightweight world model project called <b><a href="https://worldforge-agi.github.io" style="color:inherit;text-decoration:underline;">WorldForge</a></b>, which has been open-sourced. Check it out!
 </div>
 
 ---
@@ -244,7 +244,8 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
   <div class="pub-img"><img src="/images/paper/switchcraft.gif" onerror="this.onerror=null;this.src='/images/paper/switchcraft.mp4';this.onerror=function(){this.parentElement.innerHTML='<div class=placeholder>&#128196;</div>';}" /></div>
   <div class="pub-info">
     <div class="pub-title"><a href="#">SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls</a></div>
-    <div class="pub-authors">Q Xu, <b>C Song</b>, Y Cai, C Zhang</div>
+    <div class="pub-authors">Q Xu, <b>C Song</b><sup>†</sup>, Y Cai, C Zhang</div>
+    <div style="font-size: 0.85em; color: #666;">(Project lead)</div>
     <div class="pub-venue"><b>CVPR 2026</b></div>
     <div class="pub-links">
       <a href="https://switchcraft-project.github.io/">Page</a>
@@ -259,7 +260,8 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
   <div class="pub-img"><img src="/images/paper/freelunch.gif" onerror="this.onerror=null;this.src='/images/paper/freelunch.mp4';this.onerror=function(){this.parentElement.innerHTML='<div class=placeholder>&#128196;</div>';}" /></div>
   <div class="pub-info">
     <div class="pub-title"><a href="#">Free-Lunch Long Video Generation via Layer-Adaptive O.O.D Correction</a></div>
-    <div class="pub-authors">J Tian, <b>C Song</b>, W Cheng, C Zhang</div>
+    <div class="pub-authors">J Tian, <b>C Song</b><sup>†</sup>, W Cheng, C Zhang</div>
+    <div style="font-size: 0.85em; color: #666;">(Project lead)</div>
     <div class="pub-venue"><b>CVPR 2026</b></div>
     <div class="pub-links">
       <!-- <a href="https://flowdirector-edit.github.io/">Page</a> -->
