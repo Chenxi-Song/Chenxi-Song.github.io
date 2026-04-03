@@ -262,3 +262,16 @@
     }
   }
 }
+
+.author__clustrmaps {
+  margin-top: 1em;
+  transform: scale(0.85);
+  transform-origin: top left;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--global-border-color);
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
