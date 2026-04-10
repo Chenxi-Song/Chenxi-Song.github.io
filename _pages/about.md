@@ -187,7 +187,7 @@ html[data-theme="dark"] .news-section::-webkit-scrollbar-thumb { background: #66
 Hi, I'm <b>Chenxi Song</b>, currently a postdoctoral researcher at AGI Lab, Westlake University, supervised by Prof. <a href="https://icoz69.github.io/">Chi Zhang</a>. I received my Ph.D. degree in Engineering from Jilin University in 2024, where I focused on 3D Computer Vision and Computer Graphics under the supervision of Prof. <a href="https://dce.jlu.edu.cn/info/1066/7660.htm">Shigang Wang</a>, with co-supervision from Prof. <a href="https://wei-jian.github.io/about/">Jian Wei</a> and Prof. <a href="https://dce.jlu.edu.cn/info/1181/5220.htm">Yan Zhao</a>.
 <br><br>
 My current research interests lie in <b>3D & 4D scene and controllable video generation</b>. I am actively engaged in the academic community, serving as a reviewer for top-tier AI conferences and journals including NeurIPS, CVPR, ECCV, AAAI, MM, and T-CSVT.
-I recently launched a lightweight world model project called <b><a href="https://worldforge-agi.github.io" style="color:inherit;text-decoration:underline;">WorldForge</a></b>, which has been open-sourced. Check it out!
+I recently launched a lightweight world model project called <b><a href="https://worldforge-agi.github.io" style="color:inherit;text-decoration:underline;">WorldForge</a></b>. I will continue to focus on controllable video generation and world model research. Welcome to collaborate!
 </div>
 
 ---
@@ -195,6 +195,7 @@ I recently launched a lightweight world model project called <b><a href="https:/
 ## News
 
 <div class="news-section">
+  <div class="news-item"><span class="news-date">Apr 2026</span> 🏆 <b>WorldForge</b> is selected as CVPR <span style="color:#ea3277;font-weight:bold;">Highlight</span>!</div>
   <div class="news-item"><span class="news-date">Feb 2026</span> 🎉 <b>5</b> papers are accepted by <b>CVPR 2026</b>!</div>
   <div class="news-item"><span class="news-date">Feb 2026</span> 🔥 <a href="https://github.com/Westlake-AGI-Lab/WorldForge" style="color:inherit;text-decoration:underline;">WorldForge</a> code is now open-sourced!</div>
   <div class="news-item"><span class="news-date">Sep 2025</span> 🔥 Released WorldForge, a training-free world model project.</div>
@@ -217,7 +218,7 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
   <div class="pub-info">
     <div class="pub-title"><a href="https://arxiv.org/abs/2509.15130">WorldForge: Taming Video Models for 3D and 4D Generation via Zero-Shot Camera Control</a></div>
     <div class="pub-authors"><b>C Song</b>, Y Yang, T Zhao, R Li, C Zhang</div>
-    <div class="pub-venue"><b>CVPR 2026</b></div>
+    <div class="pub-venue"><b>CVPR 2026 (Highlight)</b></div>
     <div class="pub-links">
       <a href="https://worldforge-agi.github.io">Page</a>
       <a href="https://arxiv.org/abs/2509.15130">PDF</a>
@@ -265,8 +266,8 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
     <div class="pub-venue"><b>CVPR 2026</b></div>
     <div class="pub-links">
       <!-- <a href="https://flowdirector-edit.github.io/">Page</a> -->
-      <a href="#">PDF</a>
-      <!-- <a href="https://github.com/Westlake-AGI-Lab/FlowDirector">Code</a> -->
+      <a href="https://arxiv.org/abs/2603.25209">PDF</a>
+      <a href="https://github.com/Westlake-AGI-Lab/FreeLOC">Code</a>
     </div>
   </div>
 </div>
@@ -325,6 +326,20 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
     <a href="https://appagentx.github.io/">Page</a>
     <a href="https://arxiv.org/abs/2511.22533">PDF</a>
     <a href="https://github.com/Westlake-AGI-Lab/AppAgentX">Code</a>
+    </div>
+  </div>
+</div>
+
+<!-- DyWeight -->
+<div class="pub-card">
+  <div class="pub-img"><img src="/images/paper/dyweight.png" onerror="this.onerror=null;this.parentElement.innerHTML='<div class=placeholder>&#128293;</div>';" /></div>
+  <div class="pub-info">
+    <div class="pub-title"><a href="https://arxiv.org/abs/2603.11607">DyWeight: Dynamic Gradient Weighting for Few-Step Diffusion Sampling</a></div>
+    <div class="pub-authors">T Zhao, M Lei, L Yuan, Y Yang, <b>C Song</b>, Y Wang, B Zhu, C Zhang</div>
+    <div class="pub-venue">arXiv preprint arXiv:2603.11607, 2026</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2603.11607">PDF</a>
+      <a href="https://github.com/Westlake-AGI-Lab/DyWeight">Code</a>
     </div>
   </div>
 </div>
