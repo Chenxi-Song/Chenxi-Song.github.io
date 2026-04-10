@@ -344,6 +344,20 @@ You can also find my articles on <a href="https://scholar.google.com/citations?h
   </div>
 </div>
 
+<!-- StyleAvatar3D -->
+<div class="pub-card">
+  <div class="pub-img"><img src="/images/paper/styleavatar3d.png" onerror="this.onerror=null;this.parentElement.innerHTML='<div class=placeholder>&#128196;</div>';" /></div>
+  <div class="pub-info">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/11382190">StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation</a></div>
+    <div class="pub-authors">C Zhang, Y Chen, Y Fu, W Cheng, Z Zhou, W Jiang, Z Wang, B Fu, T Chen, G Yu, G Lin, <b>C Song</b></div>
+    <div class="pub-venue">IEEE Journal of Selected Topics in Signal Processing (J-STSP), 2026</div>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/abstract/document/11382190">PDF</a>
+      <a href="https://github.com/icoz69/StyleAvatar3D">Code</a>
+    </div>
+  </div>
+</div>
+
 <!-- Elemental image array -->
 <div class="pub-card">
   <div class="pub-img"><img src="/images/paper/elemental.gif" onerror="this.onerror=null;this.src='/images/paper/elemental.png';this.onerror=function(){this.parentElement.innerHTML='<div class=placeholder>&#128196;</div>';}" /></div>
