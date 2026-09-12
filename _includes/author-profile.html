@@ -82,6 +82,12 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}
+      {% if author.wechat %}
+        <li class="author__wechat">
+          <a href="#wechat" role="button" aria-expanded="false" aria-controls="author-wechat-id" onclick="var el=document.getElementById('author-wechat-id');var open=el.hasAttribute('hidden');if(open){el.removeAttribute('hidden');}else{el.setAttribute('hidden','');}this.setAttribute('aria-expanded',open);return false;"><i class="fab fa-fw fa-weixin icon-pad-right" aria-hidden="true"></i>WeChat</a>
+          <div id="author-wechat-id" class="author__wechat-id" hidden>{{ author.wechat }}</div>
+        </li>
+      {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      
@@ -169,6 +175,10 @@
   </div>
 
   <div class="author__clustrmaps">
-    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=kZ8dnuQ9rJYSIH1vQH8N7ZtHsU70FKVomBsB2qxSpFU&cl=ffffff&w=a"></script>
+    <!-- Map widget: t=n keeps the map but hides its rolling "last 30 days" pageview line -->
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=kZ8dnuQ9rJYSIH1vQH8N7ZtHsU70FKVomBsB2qxSpFU&cl=ffffff&w=a&t=n"></script>
+    <div class="author__count">
+      <b id="vercount_value_site_pv">&ndash;</b> visits &nbsp;&middot;&nbsp; <b id="vercount_value_site_uv">&ndash;</b> visitors
+    </div>
   </div>
 </div>

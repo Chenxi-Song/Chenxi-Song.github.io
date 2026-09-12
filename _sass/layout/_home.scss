@@ -1,0 +1,314 @@
+/* ==========================================================================
+   HOME PAGE
+
+   Short, plain list of work. No cards, no badges, no shadows: entries are
+   separated by a hairline rule with an italic venue line, the way a
+   publication list is normally printed. Scoped to .home so the other pages
+   of the site are untouched.
+   ========================================================================== */
+
+.home {
+  --home-rule   : #e4e6ea;
+  --home-rule-2 : #eceef1;
+  --home-ink    : #1c1f24;
+  --home-quiet  : #5a6068;
+
+  --home-serif  : Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+  --home-sans   : -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial,
+                  "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+  font-family: var(--home-sans);
+  color: var(--home-ink);
+  font-size: 15.5px;
+  line-height: 1.68;
+}
+
+html[data-theme="dark"] .home {
+  --home-rule   : #4d4d4d;
+  --home-rule-2 : #454545;
+  --home-ink    : #ededed;
+  --home-quiet  : #b2b6bb;
+}
+
+.home a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.home a:hover {
+  color: var(--global-link-color);
+  border-bottom-color: var(--global-link-color);
+}
+
+html[data-theme="dark"] .home a {
+  border-bottom-color: rgba(255, 255, 255, 0.26);
+}
+
+/* --------------------------------------------------------------------------
+   Intro
+   -------------------------------------------------------------------------- */
+
+.home__intro p {
+  margin: 0 0 0.9em;
+}
+
+.home__intro p:last-child {
+  margin-bottom: 1.5em;
+}
+
+/* --------------------------------------------------------------------------
+   Section headings — small caps over a hairline rule
+   -------------------------------------------------------------------------- */
+
+.home-section {
+  margin-top: 2.4em;
+}
+
+.home-section__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 0.75em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--home-rule);
+}
+
+.home-section__head h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: var(--home-serif);
+  font-size: 1.1em;
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+}
+
+.home-section__note {
+  color: var(--home-quiet);
+  font-size: 0.82em;
+  white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
+   News — date column + text
+   -------------------------------------------------------------------------- */
+
+.home__news {
+  margin: 0;
+  padding: 0 10px 0 0;
+  list-style: none;
+  /* fits the current eight entries; a ninth one starts the scroll */
+  max-height: 310px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.home__news li {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--home-rule-2);
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.home__news li:last-child {
+  border-bottom: 0;
+}
+
+.home__news .when {
+  flex: 0 0 74px;
+  color: var(--home-quiet);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.home .hl {
+  color: #ea3277;
+  font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------
+   Publications
+   -------------------------------------------------------------------------- */
+
+.pub-list {
+  margin: 0;
+  padding: 0 10px 0 0;
+  max-height: 800px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.pub-list::-webkit-scrollbar,
+.home__news::-webkit-scrollbar {
+  width: 6px;
+}
+
+.pub-list::-webkit-scrollbar-track,
+.home__news::-webkit-scrollbar-track {
+  background: #f5f6f8;
+  border-radius: 3px;
+}
+
+.pub-list::-webkit-scrollbar-thumb,
+.home__news::-webkit-scrollbar-thumb {
+  background: #d3d6db;
+  border-radius: 3px;
+}
+
+.pub-list::-webkit-scrollbar-thumb:hover,
+.home__news::-webkit-scrollbar-thumb:hover {
+  background: #b4b8be;
+}
+
+html[data-theme="dark"] .pub-list::-webkit-scrollbar-track,
+html[data-theme="dark"] .home__news::-webkit-scrollbar-track {
+  background: #3a3a3a;
+}
+
+html[data-theme="dark"] .pub-list::-webkit-scrollbar-thumb,
+html[data-theme="dark"] .home__news::-webkit-scrollbar-thumb {
+  background: #5c5c5c;
+}
+
+.pub-entry {
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 17px 0;
+  border-bottom: 1px solid var(--home-rule-2);
+}
+
+.pub-entry:first-child {
+  padding-top: 4px;
+}
+
+.pub-entry:last-child {
+  border-bottom: 0;
+}
+
+.pub-entry__thumb {
+  flex: 0 0 200px;
+  width: 200px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: #f1f2f4;
+}
+
+html[data-theme="dark"] .pub-entry__thumb {
+  background: #3d3d3d;
+}
+
+.pub-entry__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pub-entry__thumb img.is-contain {
+  object-fit: contain;
+}
+
+.pub-entry__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pub-entry__title {
+  margin: 0 0 4px;
+  font-family: var(--home-serif);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.pub-entry__title a {
+  border-bottom: 0;
+}
+
+.pub-entry__title a:hover {
+  border-bottom: 1px solid var(--global-link-color);
+}
+
+.pub-entry__authors {
+  margin: 0 0 3px;
+  color: var(--home-quiet);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.pub-entry__authors b {
+  color: var(--home-ink);
+  font-weight: 600;
+}
+
+.pub-entry__venue {
+  margin: 0 0 7px;
+  color: var(--home-quiet);
+  font-size: 13.5px;
+  font-style: italic;
+}
+
+.pub-entry__venue .note {
+  font-style: normal;
+}
+
+.pub-entry__links {
+  font-size: 13.5px;
+}
+
+.pub-entry__links a {
+  color: var(--global-link-color);
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  border-bottom: 0;
+}
+
+.pub-entry__links a:hover {
+  border-bottom: 1px solid var(--global-link-color);
+}
+
+.pub-entry__links span {
+  color: var(--home-rule);
+  padding: 0 5px;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 700px) {
+  .pub-entry {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pub-entry__thumb {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+  }
+
+  .home__news {
+    max-height: 480px; /* rows are two lines tall here */
+  }
+
+  .home__news li {
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .home__news .when {
+    flex: 0 0 auto;
+  }
+}

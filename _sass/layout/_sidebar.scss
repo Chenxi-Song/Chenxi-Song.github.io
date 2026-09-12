@@ -263,10 +263,38 @@
   }
 }
 
+/* WeChat: the id is revealed under the link on click */
+.author__wechat-id {
+  margin: 2px 0 6px 2.05em;
+  padding: 3px 8px;
+  display: inline-block;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  background: var(--global-footer-bg-color);
+  color: var(--global-text-color);
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  line-height: 1.4;
+  user-select: all;
+  -webkit-user-select: all;
+}
+
+.author__wechat-id[hidden] {
+  display: none;
+}
+
 .author__clustrmaps {
+  position: relative;
   margin-top: 1em;
-  transform: scale(0.85);
+  // Soften the third-party blue map in dark mode
+  transition: filter 0.2s ease;
+
+  // The widget always fetches a 300px-wide map and is scaled down here.
+  width: 264px;
+  max-width: 100%;
+  transform: scale(0.84);
   transform-origin: top left;
+  line-height: 0;
   overflow: hidden;
   border-radius: 8px;
   border: 1px solid var(--global-border-color);
@@ -274,4 +302,36 @@
   @include breakpoint($large) {
     display: block;
   }
+}
+
+html[data-theme="dark"] .author__clustrmaps {
+  filter: brightness(0.7) saturate(0.8);
+}
+
+/* Running total, drawn on the first line inside the map. The widget's own
+   rolling "last 30 days" line is hidden with the t=n script parameter. */
+.author__count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 6px 6px 14px;
+  background: linear-gradient(to bottom, rgba(16, 34, 52, 0.72), rgba(16, 34, 52, 0));
+  color: #fff;
+  font-family: $sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+
+.author__count b {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
