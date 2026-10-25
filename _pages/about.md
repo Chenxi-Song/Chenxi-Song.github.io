@@ -85,7 +85,7 @@ redirect_from:
         <div class="pub-entry__authors"><b>C Song</b>, Y Yang, T Zhao, R Li, JT Zhou, C Zhang</div>
         <div class="pub-entry__venue"><i>arXiv preprint</i>, 2026</div>
         <div class="pub-entry__links">
-          <a href="https://arxiv.org/abs/2610.31640">arXiv</a><span>|</span><a href="https://github.com/Westlake-AGI-Lab/WorldForge">code</a>
+          <a href="https://arxiv.org/abs/2610.31640">pdf</a><span>|</span><a href="https://github.com/Westlake-AGI-Lab/WorldForge">code</a>
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@ redirect_from:
       </div>
       <div class="pub-entry__body">
         <div class="pub-entry__title"><a href="#core-vfi">CoRe-VFI: Complementary Reference Guidance for Training-Free Video Frame Interpolation</a></div>
-        <div class="pub-entry__authors"><b>C Song</b>, Y Wu, Y Yang, C Zhang</div>
+        <div class="pub-entry__authors"><b>C Song</b>, Y Wu, Y Zhang, Y Yang, C Zhang</div>
         <div class="pub-entry__links">
           <a href="#core-vfi">page</a>
         </div>
