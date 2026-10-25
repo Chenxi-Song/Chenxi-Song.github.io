@@ -22,7 +22,9 @@ redirect_from:
     <h2>News</h2>
   </div>
   <ul class="home__news">
+    <li><span class="when">Oct 2026</span><span>📷 <a href="https://github.com/Westlake-AGI-Lab/WorldForge">WorldForge V2</a> — data-efficient training for camera-trajectory-controlled generation.</span></li>
     <li><span class="when">Sep 2026</span><span>🚀 <a href="https://chenxi-song.github.io/worldinworld/">World in World</a> is released — paper, project page and code are out!</span></li>
+    <li><span class="when">Sep 2026</span><span>🎬 <a href="#core-vfi"><b>CoRe-VFI</b></a> is proposed, enabling video frame interpolation at 2&times;&ndash;32&times; and even higher factors.</span></li>
     <li><span class="when">Apr 2026</span><span>🏆 <b>WorldForge</b> is selected as CVPR <span class="hl">Highlight</span>!</span></li>
     <li><span class="when">Feb 2026</span><span>🎉 <b>5</b> papers are accepted by <b>CVPR 2026</b>!</span></li>
     <li><span class="when">Feb 2026</span><span>🔥 <a href="https://github.com/Westlake-AGI-Lab/WorldForge">WorldForge</a> code is now open-sourced!</span></li>
@@ -44,7 +46,7 @@ redirect_from:
 
     <!-- World in World -->
     <div class="pub-entry">
-      <div class="pub-entry__thumb">
+      <div class="pub-entry__thumb pub-entry__thumb--worldinworld">
         <a href="https://chenxi-song.github.io/worldinworld/"><img src="/images/paper/worldinworld.gif" alt="World in World teaser"></a>
       </div>
       <div class="pub-entry__body">
@@ -59,8 +61,9 @@ redirect_from:
 
     <!-- WorldForge -->
     <div class="pub-entry">
-      <div class="pub-entry__thumb">
+      <div class="pub-entry__thumb pub-entry__thumb--worldforge">
         <img src="/images/paper/worldforge.gif" alt="WorldForge teaser">
+        <span class="pub-entry__thumb-caption">Single Image to 360&deg; View</span>
       </div>
       <div class="pub-entry__body">
         <div class="pub-entry__title"><a href="https://arxiv.org/abs/2509.15130">WorldForge: Taming Video Models for 3D and 4D Generation via Zero-Shot Camera Control</a></div>
@@ -68,6 +71,35 @@ redirect_from:
         <div class="pub-entry__venue"><i>CVPR 2026</i> <span class="note">— Highlight</span></div>
         <div class="pub-entry__links">
           <a href="https://worldforge-agi.github.io">page</a><span>|</span><a href="https://arxiv.org/abs/2509.15130">pdf</a><span>|</span><a href="https://github.com/Westlake-AGI-Lab/WorldForge">code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- WorldForge V2 -->
+    <div class="pub-entry" id="worldforge-v2">
+      <div class="pub-entry__thumb">
+        <img class="is-contain" src="/images/paper/worldforge-v2.gif" alt="WorldForge V2 camera-control demo">
+      </div>
+      <div class="pub-entry__body">
+        <div class="pub-entry__title"><a href="https://arxiv.org/abs/2610.31640">WorldForge V2: Eliciting Camera-Trajectory Alignment in Video Diffusion Models</a></div>
+        <div class="pub-entry__authors"><b>C Song</b>, Y Yang, T Zhao, R Li, JT Zhou, C Zhang</div>
+        <div class="pub-entry__venue"><i>arXiv preprint</i>, 2026</div>
+        <div class="pub-entry__links">
+          <a href="https://arxiv.org/abs/2610.31640">arXiv</a><span>|</span><a href="https://github.com/Westlake-AGI-Lab/WorldForge">code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CoRe-VFI -->
+    <div class="pub-entry" id="core-vfi">
+      <div class="pub-entry__thumb">
+        <img class="is-contain" src="/images/paper/core-vfi.gif" alt="CoRe-VFI 8× and 16× video frame interpolation examples">
+      </div>
+      <div class="pub-entry__body">
+        <div class="pub-entry__title"><a href="#core-vfi">CoRe-VFI: Complementary Reference Guidance for Training-Free Video Frame Interpolation</a></div>
+        <div class="pub-entry__authors"><b>C Song</b>, Y Wu, Y Yang, C Zhang</div>
+        <div class="pub-entry__links">
+          <a href="#core-vfi">page</a>
         </div>
       </div>
     </div>
@@ -173,6 +205,22 @@ redirect_from:
         <div class="pub-entry__venue"><i>arXiv preprint</i>, 2025</div>
         <div class="pub-entry__links">
           <a href="https://appagentx.github.io/">page</a><span>|</span><a href="https://arxiv.org/abs/2503.02268">pdf</a><span>|</span><a href="https://github.com/Westlake-AGI-Lab/AppAgentX">code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- GS2CI -->
+    <div class="pub-entry" id="gs2ci">
+      <div class="pub-entry__thumb">
+        <!-- Teaser from the official GS2CI repository: assets/teaser.jpg. -->
+        <img class="is-contain" src="/images/paper/gs2ci.jpg" alt="GS2CI teaser: single-shot compressive capture and 3D scene reconstruction">
+      </div>
+      <div class="pub-entry__body">
+        <div class="pub-entry__title"><a href="https://arxiv.org/abs/2608.13502">GS<sup>2</sup>CI: Robust Gaussian Splatting For Snapshot Compressive Imaging via Large Vision Model Priors</a></div>
+        <div class="pub-entry__authors">Y Yang, <b>C Song</b>, P Wang, X Yuan, C Zhang</div>
+        <div class="pub-entry__venue"><i>arXiv preprint</i>, 2026</div>
+        <div class="pub-entry__links">
+          <a href="https://arxiv.org/abs/2608.13502">arXiv</a><span>|</span><a href="https://github.com/Westlake-AGI-Lab/GS2CI">code</a>
         </div>
       </div>
     </div>

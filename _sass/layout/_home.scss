@@ -218,6 +218,64 @@ html[data-theme="dark"] .pub-entry__thumb {
   object-fit: contain;
 }
 
+/* Show the four central cases: (26, 30, 388, 218) in the 440 x 275 GIF. */
+.pub-entry__thumb.pub-entry__thumb--worldinworld {
+  position: relative;
+  height: auto;
+  aspect-ratio: 388 / 218;
+  align-self: flex-start;
+}
+
+.pub-entry__thumb--worldinworld a {
+  position: absolute;
+  inset: 0;
+  border: 0;
+}
+
+.pub-entry__thumb--worldinworld img {
+  position: absolute;
+  left: -6.7010%;
+  top: -13.7615%;
+  width: 113.4021%;
+  height: 126.1468%;
+  max-width: none;
+  object-fit: fill;
+}
+
+/* Remove the title band and side borders: (39, 44, 522, 294) in the 600 x 338 GIF. */
+.pub-entry__thumb.pub-entry__thumb--worldforge {
+  position: relative;
+  height: auto;
+  aspect-ratio: 522 / 294;
+  align-self: flex-start;
+}
+
+.pub-entry__thumb--worldforge img {
+  position: absolute;
+  left: -7.4713%;
+  top: -14.9660%;
+  width: 114.9425%;
+  height: 114.9660%;
+  max-width: none;
+  object-fit: fill;
+}
+
+.pub-entry__thumb--worldforge .pub-entry__thumb-caption {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #c4a7e7;
+  font-family: var(--home-sans);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.015em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
 .pub-entry__body {
   flex: 1 1 auto;
   min-width: 0;
